@@ -9,6 +9,10 @@ body{
     font-family: 'Cabin', sans-serif;
 }
 
+h1{
+    font-size: 2.1rem;
+    padding-bottom: 1.5rem;
+}
 /* .flex{
     display: flex;
     justify-content: center;
@@ -47,6 +51,7 @@ body{
 .dotted-test{
     border: 2px dashed black;
 }
+
 
 .columns{
     padding: 3rem 0;
@@ -202,6 +207,15 @@ div.button{
     font-size: 1rem;
     padding: 0.5rem;
     margin: 1.7rem 0.7rem;
+    border: none;
 
+}
 
+.right-button{
+    background-color: #23272a;
+    color: white;
+}
+
+#header-p{
+    padding: 1rem 1.2rem 1rem 1.2rem;
 }
