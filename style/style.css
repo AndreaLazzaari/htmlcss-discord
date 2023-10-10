@@ -57,22 +57,22 @@ h1{
     padding: 3rem 0;
 }
 
-.column{
+/* .column{
     height: 400px;
-}
+} */
 
-.column-big{
+/* .column-big{ */
     /* background-color: #1e8ffe; */
-    width: 60%;
-}
+    /* width: 60%; */
+/* } */
 
 .column-small{
-    background-color: #febfca;
-    width: 40%;
+    /* background-color: #febfca; */
+    /* width: 40%; */
 }
 
 .column-single{
-    background-color: #228a22;
+    /* background-color: #228a22; */
     width: 100%;
     height: 700px;
 }
@@ -96,13 +96,13 @@ h1{
 
 
 
-.bg-white{
+/* .bg-white{
     background-color: white;
-}
+} */
 
-.bg-grey{
+/* .bg-grey{
     background-color: #d2d2d2;
-}
+} */
 
 header{
     color: white;
@@ -169,7 +169,7 @@ section.navigation div.login{
 
 section#jumbo{
     background-image: url(../img/jumbo.png);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 4rem 0;
    
@@ -214,6 +214,23 @@ div.button{
 .right-button{
     background-color: #23272a;
     color: white;
+}
+
+.sottotitolo-main{
+    color: #313538;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 1.2rem;
+
+}
+
+.spiegazione{
+    text-align: justify;
+    color: #313538;
+}
+
+.container{
+    text-align: center;
 }
 
 #header-p{
