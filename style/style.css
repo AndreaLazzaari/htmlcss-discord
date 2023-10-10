@@ -15,12 +15,20 @@ h1{
 }
 
 h3{
-    background-image: url(../img/stars.svg);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    
     padding: 3.5px;
     
+}
+
+h4{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    color: #697ec5;
+    
+}
+
+ul{
+    list-style-type: none;
 }
 
 /* .flex{
@@ -88,19 +96,20 @@ h3{
 }
 
 .column-70{
-    background-color: #20b1a9 ;
+    /* background-color: #20b1a9 ; */
     width: 70%;
     height: 500px;
 }
 
 .column-30{
-    background-color: #ef7f7f;
+    /* background-color: #ef7f7f; */
     height: 500px;
     width: 30%;
+    text-align: left;
 }
 
 .column-quarters{
-    border: 2px dashed white;
+    /* border: 2px dashed white; */
     width: calc(100% / 4);
 }
 
@@ -206,8 +215,9 @@ section.links{
 }
 
 div.button{
-    background-color: #feb5c0;
+    /* background-color: #feb5c0; */
     height: 2rem;
+    color: white;
     padding: .25rem .5rem;
 }
 
@@ -243,6 +253,44 @@ div.button{
     text-align: center;
 }
 
+.fa-brands{
+    padding-top: 1rem;
+    padding-right: 0.5rem;
+    color: white;
+}
+
+.categoria-footer{
+    color: #697ec5;
+    
+}
+
+li{
+    padding: 0.5rem 0;
+    color: white;
+}
+
 #header-p{
     padding: 1rem 1.2rem 1rem 1.2rem;
+}
+
+#scelta-lingua{
+    font-size: 1rem;
+}
+
+#inizio-discord{
+    background-image: url(../img/stars.svg);
+    background-size: auto;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#bandiera-italia{
+    width: 1.5rem;
+}
+
+select{
+    height: 1rem;
+    border: none;
+    background-color: #23272a;
+    color: white;
 }
