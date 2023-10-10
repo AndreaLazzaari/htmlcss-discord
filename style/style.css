@@ -14,12 +14,14 @@ h1{
     padding-bottom: 1.5rem;
 }
 
-/* h3{
+h3{
     background-image: url(../img/stars.svg);
     background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
+    padding: 3.5px;
     
-} */
+}
 
 /* .flex{
     display: flex;
