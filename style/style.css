@@ -147,9 +147,13 @@ section.navigation div.login{
 }
 
 
+#img-jumbo{
+    width: 300px;
+}
+
 section#jumbo{
     /* height: 300px; */
-    background-color: #00008a;
+    background-image: url(../img/jumbo.png);
     padding: 3rem 0;
 }
 
